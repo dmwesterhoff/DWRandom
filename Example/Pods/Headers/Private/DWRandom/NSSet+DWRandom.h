@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/NSSet+DWRandom.h
+../../../../../DWRandom/NSSet+DWRandom.h

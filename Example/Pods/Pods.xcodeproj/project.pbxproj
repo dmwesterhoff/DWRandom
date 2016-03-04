@@ -7,38 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093831CDA287500AD3B71B3C88A99FBC /* NSMutableSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B9EE97F2261924B536ECB7F66C3BA1 /* NSMutableSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23CF9802B549D9ACC6A0D0C2380AAAAD /* NSCountedSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D619D6596AD94F4A22F7BB5E3584168 /* NSCountedSet+DWRandom.m */; };
-		2A94CCB2ABF2D8BAD4DDF256E8538CA6 /* DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A5DF467E13FF2D79B04F271BB27BEB /* DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CA56EFFB1E39F83517AA7686118CB9E /* NSData+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E484D5CC9FB0E0FA4EE42A4019F55F5 /* NSData+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E47A8F37CC6746E6B603B21A125CFA /* DWRandom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE713971CBB313102F850426A1D40DC9 /* DWRandom-dummy.m */; };
+		0F8FB02DD3D501BF7B6A528915BE3180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		2CD4B1AA30CFCBF9A707D22B4F26531A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		3649A80168D828801A752A5ADAE68BC4 /* NSCountedSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FD629E61B94A209EDAEC003F1A81CB /* NSCountedSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38285452D87D17560C55F678723363AA /* NSData+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2FB31AE7D6F5D0E536A703268FC549 /* NSData+DWRandom.m */; };
-		40233CE520B2C3F0B20C30B6CCAD5165 /* NSString+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C21B99C85ECC4FB62F7EB05D80534B /* NSString+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40FF61D5B64C9DB15863A51FB1569914 /* NSMutableDictionary+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA23CA1A9346316086064793E60F0E0 /* NSMutableDictionary+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44413AC9020D4A79050ED0A2B6DA31CA /* NSArray+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712D17D9322DD4D9D126D3BFD202EA0 /* NSArray+DWRandom.m */; };
+		3FBC29DBEF37D9F3739B110A500C6873 /* NSNumber+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E351E085E4F5BF9AC8F95FBC1D435FB /* NSNumber+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42CB7747AE80AA5067ACBC2BAE836EA1 /* NSArray+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DE4E947F69771E5441FF3E44D26A5D /* NSArray+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47A0CE1320A31E6A88F9848FDB6589B2 /* Pods-DWRandom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B05353CEFB1FAF8347DED086C320048F /* Pods-DWRandom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C04FC62E2A701F6DA535ECBC018346D /* NSDictionary+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FAF58E4121D3554A41E8783F6AFDED /* NSDictionary+DWRandom.m */; };
-		59DDDCE51AD34929C67D85BE4E76780A /* DWRandom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491D112762751006AC242954C97E9CD /* DWRandom-dummy.m */; };
-		63D46A12CB7409AF83C84D25D8215DD3 /* NSOrderedSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC8AAB31E29B97BBA5F1C63EE5547D /* NSOrderedSet+DWRandom.m */; };
-		6496415891EB6B4AA82B517096AA75C0 /* NSMutableString+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D86040116BE96D54534CBB59A72984 /* NSMutableString+DWRandom.m */; };
-		6907D20DD860CAE038AB3A2AE547A161 /* NSOrderedSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BD832037F2C07D5A1263B07E47B83E /* NSOrderedSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F7E9A9D8DB4B0882E8C05D9BA08FF6F /* NSMutableArray+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB93E50CA29FA3DD21BEE99FEF610E5 /* NSMutableArray+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76C82A5CEC8143E79F692EB68A86FC4B /* NSMutableString+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C991E0DB07C621D3E0014F875C8132D /* NSMutableString+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ADE021033CD77172D583113F6CF8087 /* NSMutableSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F71F59EEA2C55576C90CB32B317DE03 /* NSMutableSet+DWRandom.m */; };
-		995626D834F90A8048AE5D92025D8021 /* NSMutableDictionary+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E296D65F4066827A1154650778CFBE /* NSMutableDictionary+DWRandom.m */; };
+		4B7000AB75EF0495F51DD5841C327112 /* NSString+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E9440B6E63DE2D027B3FDE9305C3C9 /* NSString+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F88EAA15B4D196777175C413D24AB7A /* NSSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 208DF97A0F1C48B8DE80AB5BA07DCB6F /* NSSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		669AD299DDB7B001ABBABB39C00025D4 /* NSDictionary+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A5614D8F36A441043EFF2F62C3E0CA /* NSDictionary+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670EDFBD8BE3B75782A9AA82EFB907F8 /* NSMutableString+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = A58FA150304E8EC6DA5E4CA8A2683571 /* NSMutableString+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FA7A3BA9CC5A92C488FBD26EFB3757 /* NSMutableSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = AA51597FA453DA57BB1DA1CADE7044DB /* NSMutableSet+DWRandom.m */; };
+		6A45D43524A9D99971F4FF4E68C8D4C1 /* NSMutableArray+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6167A5A3F8E955BE33DEF4B00BAF8782 /* NSMutableArray+DWRandom.m */; };
+		6A7A127D86E3729E8927E64434200CA6 /* NSData+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 092214BB5C91D84AE282C144E106EB36 /* NSData+DWRandom.m */; };
+		6C9547DF16A399D31E887054839EB27A /* NSString+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = B749A33E5BA1A2C99FC88E262B751F1D /* NSString+DWRandom.m */; };
+		79C14277B413E8A1BA1BD10E6E57EBB8 /* NSMutableDictionary+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EC925A782E05E140F631F799274B27 /* NSMutableDictionary+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A0E0C2773FA8C6B03A958F32103908 /* NSNumber+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C682B1220B65477E9C37225B339B8AF /* NSNumber+DWRandom.m */; };
+		8B58D01FDF80728C3E57CE8ECA30F877 /* NSOrderedSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 64101D60A77C27B9E0EE14B56210A81A /* NSOrderedSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1E1E8CFE675C8E4F3477F9565544D8 /* NSMutableString+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 27616FE405CBA1F317929F303BF21B88 /* NSMutableString+DWRandom.m */; };
+		8F302348C13F7EB9C9E2019B397FE7D4 /* NSMutableSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = DE045C719DDBF7574973B97E64B5DDBC /* NSMutableSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DE333F8455377BE4BC532CF00CCD24 /* DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 397EC2761FA5803F0FE7F90D0635C26C /* DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3D02C0F05B5EA65761DB4D71DEA946 /* NSDictionary+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BFC32AE2B2D20D66B2318574D3308D /* NSDictionary+DWRandom.m */; };
 		9D0B7C9F8013C0449D27DB47916AE564 /* Pods-DWRandom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C235AF4E39B56AA02CD70B592E9B500 /* Pods-DWRandom_Tests-dummy.m */; };
-		9E1A8793FC5004D02901D8F917A83411 /* DWRandom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6B2077E3CC743EAB6F88860367C1D60 /* DWRandom.bundle */; };
-		A01997A3C73EC65E68C3B3C8C572D5F8 /* NSNumber+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FEC13BBE5CC5F8CF2306543850F083 /* NSNumber+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0FC46B7412AC66F3DABB4804195B5D7 /* NSSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEF1FB59EA61ED093272DA1757258B0 /* NSSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F4E030836795B01E1C35DED0EA0DDF /* NSMutableArray+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 108FB67726B8DAFF20F570DA1753776B /* NSMutableArray+DWRandom.m */; };
-		AB06AB942ED63E7CA7709EACC04D996E /* DWRandom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEB2A733C705208816A034D99DD7E84 /* DWRandom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C144EE594B82BE80D8CFC25813756FE4 /* NSSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42F00047C588FA597A156B8BBE3E63 /* NSSet+DWRandom.m */; };
-		C44A394C0BC923E4081DD553B2824080 /* NSArray+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5673D22AD639ED81A7BF70ACFF046272 /* NSArray+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA2B14F341CA7635ED935FFD8E0FC306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F0E43CFCFE6AE7824555D52A5E5EE339 /* NSDictionary+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1589B3A355D6B334C07612A8DC5FE9E6 /* NSDictionary+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F26E50F7F6841D90D921C559E5A9C864 /* NSString+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = BA62B8F4F126AED62B2F12F5C19996D5 /* NSString+DWRandom.m */; };
-		FBE1B228D6742374B89343856AC25E31 /* NSNumber+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD2BD78F91F4D45A368812FFEF1937 /* NSNumber+DWRandom.m */; };
+		9D558F72AEF701DB33BE9C0AED558CD9 /* NSData+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CBD2828C828AA7BC20E39BADB390D5 /* NSData+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52BC99EE2B9ADAEA57F5C46375612A6 /* NSCountedSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7DFDAD76DCC47EC8942C9B7B7F782C /* NSCountedSet+DWRandom.m */; };
+		B841CEEC4114D1A3FFDD48A5F378FC55 /* NSArray+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = E552E3B569F915395808F9AC9A1A4B59 /* NSArray+DWRandom.m */; };
+		BB8D35EDC6412176D36F2133DB2D6D4B /* DWRandom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E2CD05512A05D24FBDFAF97EDBE4EC /* DWRandom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40AAF38E4342E766BEBBE161F13EEEE /* NSOrderedSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = D696D3004F87242DB472B77CB0CCA52A /* NSOrderedSet+DWRandom.m */; };
+		C7FA0F6EF2E32E895650395F92E17D20 /* NSCountedSet+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 964386452205E2F24C015556B0ED14CC /* NSCountedSet+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA6560DAA18BD99070E6B5615ACE5BC /* NSMutableDictionary+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 890480ADBC9356FCF1450279F9AE14E4 /* NSMutableDictionary+DWRandom.m */; };
+		D23320C0DB5343E674434B7AE8B3CCBD /* NSSet+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = C886D05A912F81F9C71FD0937164020D /* NSSet+DWRandom.m */; };
+		FBA27887C341CD279CD8B3F87DA3F4D6 /* NSMutableArray+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B29B6E04BAB587665826723E93396D /* NSMutableArray+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,73 +45,65 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8EB3024D8F5282FB8FBA17173F3AB2D;
+			remoteGlobalIDString = 98871D5877FC608A5D398F3C0566C342;
 			remoteInfo = DWRandom;
-		};
-		C55F1BEFF725D82685A4CDD4587B7C0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E469A517BB01865C1953BDE5305972DA;
-			remoteInfo = "DWRandom-DWRandom";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00FEC13BBE5CC5F8CF2306543850F083 /* NSNumber+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+DWRandom.h"; sourceTree = "<group>"; };
+		00E2CD05512A05D24FBDFAF97EDBE4EC /* DWRandom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWRandom-umbrella.h"; sourceTree = "<group>"; };
 		0638C2491742C5403233B9DEA2AA2704 /* Pods-DWRandom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWRandom_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		08326E7176D8EF9EB7D4A72F026896AC /* DWRandom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWRandom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		108FB67726B8DAFF20F570DA1753776B /* NSMutableArray+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DWRandom.m"; sourceTree = "<group>"; };
-		1589B3A355D6B334C07612A8DC5FE9E6 /* NSDictionary+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DWRandom.h"; sourceTree = "<group>"; };
-		1E484D5CC9FB0E0FA4EE42A4019F55F5 /* NSData+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+DWRandom.h"; sourceTree = "<group>"; };
-		21C21B99C85ECC4FB62F7EB05D80534B /* NSString+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DWRandom.h"; sourceTree = "<group>"; };
+		092214BB5C91D84AE282C144E106EB36 /* NSData+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+DWRandom.m"; sourceTree = "<group>"; };
+		1A7DFDAD76DCC47EC8942C9B7B7F782C /* NSCountedSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCountedSet+DWRandom.m"; sourceTree = "<group>"; };
+		208DF97A0F1C48B8DE80AB5BA07DCB6F /* NSSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+DWRandom.h"; sourceTree = "<group>"; };
+		27616FE405CBA1F317929F303BF21B88 /* NSMutableString+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+DWRandom.m"; sourceTree = "<group>"; };
 		2EF5D2C3131D87AE02EEC63A887E93D5 /* Pods-DWRandom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWRandom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		397EC2761FA5803F0FE7F90D0635C26C /* DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWRandom.h; sourceTree = "<group>"; };
+		3C682B1220B65477E9C37225B339B8AF /* NSNumber+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+DWRandom.m"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EC62C00570F21B8FE734EB7A2489895 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FCA224549153FD152D193463CAFE4DF /* Pods_DWRandom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DWRandom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41BD832037F2C07D5A1263B07E47B83E /* NSOrderedSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+DWRandom.h"; sourceTree = "<group>"; };
-		4324D667FFAEE3771435B918D12036E7 /* DWRandom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWRandom-prefix.pch"; sourceTree = "<group>"; };
-		49D86040116BE96D54534CBB59A72984 /* NSMutableString+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+DWRandom.m"; sourceTree = "<group>"; };
 		4C235AF4E39B56AA02CD70B592E9B500 /* Pods-DWRandom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWRandom_Tests-dummy.m"; sourceTree = "<group>"; };
-		50FAF58E4121D3554A41E8783F6AFDED /* NSDictionary+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DWRandom.m"; sourceTree = "<group>"; };
-		5491D112762751006AC242954C97E9CD /* DWRandom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWRandom-dummy.m"; sourceTree = "<group>"; };
-		5673D22AD639ED81A7BF70ACFF046272 /* NSArray+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DWRandom.h"; sourceTree = "<group>"; };
 		5A480A841933DF89D96CC235AD60A29B /* Pods-DWRandom_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWRandom_Tests-resources.sh"; sourceTree = "<group>"; };
-		5C991E0DB07C621D3E0014F875C8132D /* NSMutableString+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+DWRandom.h"; sourceTree = "<group>"; };
-		6712D17D9322DD4D9D126D3BFD202EA0 /* NSArray+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DWRandom.m"; sourceTree = "<group>"; };
-		6BEB2A733C705208816A034D99DD7E84 /* DWRandom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWRandom-umbrella.h"; sourceTree = "<group>"; };
-		6CFD2BD78F91F4D45A368812FFEF1937 /* NSNumber+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+DWRandom.m"; sourceTree = "<group>"; };
-		72A5DF467E13FF2D79B04F271BB27BEB /* DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DWRandom.h; sourceTree = "<group>"; };
-		7F71F59EEA2C55576C90CB32B317DE03 /* NSMutableSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+DWRandom.m"; sourceTree = "<group>"; };
-		92FD629E61B94A209EDAEC003F1A81CB /* NSCountedSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCountedSet+DWRandom.h"; sourceTree = "<group>"; };
+		6167A5A3F8E955BE33DEF4B00BAF8782 /* NSMutableArray+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DWRandom.m"; sourceTree = "<group>"; };
+		64101D60A77C27B9E0EE14B56210A81A /* NSOrderedSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+DWRandom.h"; sourceTree = "<group>"; };
+		6E351E085E4F5BF9AC8F95FBC1D435FB /* NSNumber+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+DWRandom.h"; sourceTree = "<group>"; };
+		70CBD2828C828AA7BC20E39BADB390D5 /* NSData+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+DWRandom.h"; sourceTree = "<group>"; };
+		770A0E6594965EE4F4E0F09C766F7F5E /* DWRandom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DWRandom.modulemap; sourceTree = "<group>"; };
+		87DE4E947F69771E5441FF3E44D26A5D /* NSArray+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+DWRandom.h"; sourceTree = "<group>"; };
+		890480ADBC9356FCF1450279F9AE14E4 /* NSMutableDictionary+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+DWRandom.m"; sourceTree = "<group>"; };
+		8E0F951178D62E9EAFD3A265A90A7245 /* DWRandom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWRandom.xcconfig; sourceTree = "<group>"; };
+		964386452205E2F24C015556B0ED14CC /* NSCountedSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCountedSet+DWRandom.h"; sourceTree = "<group>"; };
 		99B20F6DF093235FB4BF1604DA0BE476 /* Pods-DWRandom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DWRandom_Tests.modulemap"; sourceTree = "<group>"; };
-		9AEF1FB59EA61ED093272DA1757258B0 /* NSSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+DWRandom.h"; sourceTree = "<group>"; };
-		9D619D6596AD94F4A22F7BB5E3584168 /* NSCountedSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCountedSet+DWRandom.m"; sourceTree = "<group>"; };
-		9DA23CA1A9346316086064793E60F0E0 /* NSMutableDictionary+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+DWRandom.h"; sourceTree = "<group>"; };
-		9EFC8AAB31E29B97BBA5F1C63EE5547D /* NSOrderedSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+DWRandom.m"; sourceTree = "<group>"; };
-		9F42F00047C588FA597A156B8BBE3E63 /* NSSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+DWRandom.m"; sourceTree = "<group>"; };
+		A3B29B6E04BAB587665826723E93396D /* NSMutableArray+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DWRandom.h"; sourceTree = "<group>"; };
+		A58FA150304E8EC6DA5E4CA8A2683571 /* NSMutableString+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+DWRandom.h"; sourceTree = "<group>"; };
 		A6D1E68B0050D983F71FF3AD8440F770 /* Pods-DWRandom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DWRandom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7E1D9E165FBF934D2B61B76EBC7160D /* DWRandom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWRandom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8052D7075AE8CC59EFC039A75D0A2C5 /* Pods-DWRandom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWRandom_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA51597FA453DA57BB1DA1CADE7044DB /* NSMutableSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+DWRandom.m"; sourceTree = "<group>"; };
 		B05353CEFB1FAF8347DED086C320048F /* Pods-DWRandom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWRandom_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B7081E7168AC69C855EC709F0309B5B5 /* DWRandom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWRandom.xcconfig; sourceTree = "<group>"; };
-		B9C01DA5CFFB7660037267AE950CABA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA62B8F4F126AED62B2F12F5C19996D5 /* NSString+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWRandom.m"; sourceTree = "<group>"; };
+		B749A33E5BA1A2C99FC88E262B751F1D /* NSString+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWRandom.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C5B9EE97F2261924B536ECB7F66C3BA1 /* NSMutableSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+DWRandom.h"; sourceTree = "<group>"; };
-		C6B2077E3CC743EAB6F88860367C1D60 /* DWRandom.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWRandom.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3793BC0EB92B3B843A4FFC74D0C1690 /* DWRandom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DWRandom.modulemap; sourceTree = "<group>"; };
-		D4E296D65F4066827A1154650778CFBE /* NSMutableDictionary+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+DWRandom.m"; sourceTree = "<group>"; };
-		DE2FB31AE7D6F5D0E536A703268FC549 /* NSData+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+DWRandom.m"; sourceTree = "<group>"; };
+		BAED2F6FEF39888317F654377A6B202E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EC925A782E05E140F631F799274B27 /* NSMutableDictionary+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+DWRandom.h"; sourceTree = "<group>"; };
+		C886D05A912F81F9C71FD0937164020D /* NSSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+DWRandom.m"; sourceTree = "<group>"; };
+		CBD184506EFB71655AEED885ED9EA6B4 /* DWRandom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWRandom-prefix.pch"; sourceTree = "<group>"; };
+		D696D3004F87242DB472B77CB0CCA52A /* NSOrderedSet+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+DWRandom.m"; sourceTree = "<group>"; };
+		DE045C719DDBF7574973B97E64B5DDBC /* NSMutableSet+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+DWRandom.h"; sourceTree = "<group>"; };
+		E4A5614D8F36A441043EFF2F62C3E0CA /* NSDictionary+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DWRandom.h"; sourceTree = "<group>"; };
 		E4AE257AA228ACE2381A4B9B8AB6B3E5 /* Pods-DWRandom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWRandom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBB93E50CA29FA3DD21BEE99FEF610E5 /* NSMutableArray+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DWRandom.h"; sourceTree = "<group>"; };
+		E4BFC32AE2B2D20D66B2318574D3308D /* NSDictionary+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DWRandom.m"; sourceTree = "<group>"; };
+		E552E3B569F915395808F9AC9A1A4B59 /* NSArray+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DWRandom.m"; sourceTree = "<group>"; };
+		F4E9440B6E63DE2D027B3FDE9305C3C9 /* NSString+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DWRandom.h"; sourceTree = "<group>"; };
+		FE713971CBB313102F850426A1D40DC9 /* DWRandom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWRandom-dummy.m"; sourceTree = "<group>"; };
+		FFF0F3F3B5722E769D624AB7A7EBDBF0 /* Pods_DWRandom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DWRandom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C43219F4C0D985F4D8F2FD7C6D5CB09 /* Frameworks */ = {
+		695F4E7269F301859B39AC5009537A63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2B14F341CA7635ED935FFD8E0FC306 /* Foundation.framework in Frameworks */,
+				0F8FB02DD3D501BF7B6A528915BE3180 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,22 +115,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA68E28415513970BFFAC315D7D004A0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08F9C38C17530A82980D5C2DD13CBF1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1D9E165FBF934D2B61B76EBC7160D /* DWRandom.framework */,
+				FFF0F3F3B5722E769D624AB7A7EBDBF0 /* Pods_DWRandom_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		246D15CC5D5BC6BBEA6FB67F2B8211B5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				6D0AE4C1E1687E80B162B71F623FFCAD /* Pods-DWRandom_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		395C1A5C2D2EEB43D8DC3EF33E57D4C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				770A0E6594965EE4F4E0F09C766F7F5E /* DWRandom.modulemap */,
+				8E0F951178D62E9EAFD3A265A90A7245 /* DWRandom.xcconfig */,
+				FE713971CBB313102F850426A1D40DC9 /* DWRandom-dummy.m */,
+				CBD184506EFB71655AEED885ED9EA6B4 /* DWRandom-prefix.pch */,
+				00E2CD05512A05D24FBDFAF97EDBE4EC /* DWRandom-umbrella.h */,
+				BAED2F6FEF39888317F654377A6B202E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DWRandom";
+			sourceTree = "<group>";
+		};
+		4EA8FFE0E8B9D69E3B20A7DE0F450E1A /* DWRandom */ = {
+			isa = PBXGroup;
+			children = (
+				397EC2761FA5803F0FE7F90D0635C26C /* DWRandom.h */,
+				87DE4E947F69771E5441FF3E44D26A5D /* NSArray+DWRandom.h */,
+				E552E3B569F915395808F9AC9A1A4B59 /* NSArray+DWRandom.m */,
+				964386452205E2F24C015556B0ED14CC /* NSCountedSet+DWRandom.h */,
+				1A7DFDAD76DCC47EC8942C9B7B7F782C /* NSCountedSet+DWRandom.m */,
+				70CBD2828C828AA7BC20E39BADB390D5 /* NSData+DWRandom.h */,
+				092214BB5C91D84AE282C144E106EB36 /* NSData+DWRandom.m */,
+				E4A5614D8F36A441043EFF2F62C3E0CA /* NSDictionary+DWRandom.h */,
+				E4BFC32AE2B2D20D66B2318574D3308D /* NSDictionary+DWRandom.m */,
+				A3B29B6E04BAB587665826723E93396D /* NSMutableArray+DWRandom.h */,
+				6167A5A3F8E955BE33DEF4B00BAF8782 /* NSMutableArray+DWRandom.m */,
+				C4EC925A782E05E140F631F799274B27 /* NSMutableDictionary+DWRandom.h */,
+				890480ADBC9356FCF1450279F9AE14E4 /* NSMutableDictionary+DWRandom.m */,
+				DE045C719DDBF7574973B97E64B5DDBC /* NSMutableSet+DWRandom.h */,
+				AA51597FA453DA57BB1DA1CADE7044DB /* NSMutableSet+DWRandom.m */,
+				A58FA150304E8EC6DA5E4CA8A2683571 /* NSMutableString+DWRandom.h */,
+				27616FE405CBA1F317929F303BF21B88 /* NSMutableString+DWRandom.m */,
+				6E351E085E4F5BF9AC8F95FBC1D435FB /* NSNumber+DWRandom.h */,
+				3C682B1220B65477E9C37225B339B8AF /* NSNumber+DWRandom.m */,
+				64101D60A77C27B9E0EE14B56210A81A /* NSOrderedSet+DWRandom.h */,
+				D696D3004F87242DB472B77CB0CCA52A /* NSOrderedSet+DWRandom.m */,
+				208DF97A0F1C48B8DE80AB5BA07DCB6F /* NSSet+DWRandom.h */,
+				C886D05A912F81F9C71FD0937164020D /* NSSet+DWRandom.m */,
+				F4E9440B6E63DE2D027B3FDE9305C3C9 /* NSString+DWRandom.h */,
+				B749A33E5BA1A2C99FC88E262B751F1D /* NSString+DWRandom.m */,
+			);
+			path = DWRandom;
+			sourceTree = "<group>";
+		};
+		68FAD21F84C7B64632F3DA3D7946232E /* DWRandom */ = {
+			isa = PBXGroup;
+			children = (
+				4EA8FFE0E8B9D69E3B20A7DE0F450E1A /* DWRandom */,
+				395C1A5C2D2EEB43D8DC3EF33E57D4C4 /* Support Files */,
+			);
+			name = DWRandom;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6D0AE4C1E1687E80B162B71F623FFCAD /* Pods-DWRandom_Tests */ = {
@@ -166,7 +215,7 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				8F0AD3754D80DBA00641C515469F6C8F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CE650FBB19201CC81D126CDBA08F1FF4 /* Products */,
+				08F9C38C17530A82980D5C2DD13CBF1C /* Products */,
 				246D15CC5D5BC6BBEA6FB67F2B8211B5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -174,17 +223,9 @@
 		8F0AD3754D80DBA00641C515469F6C8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCFC2A9E12A5FF4478EDE9080A3DBDB8 /* DWRandom */,
+				68FAD21F84C7B64632F3DA3D7946232E /* DWRandom */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A5487B0D9761A7760B50B379DCAAEBE4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D311E4682F6E5DFD57DCE64D471130F0 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -203,72 +244,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CCFC2A9E12A5FF4478EDE9080A3DBDB8 /* DWRandom */ = {
-			isa = PBXGroup;
-			children = (
-				A5487B0D9761A7760B50B379DCAAEBE4 /* Pod */,
-				E285F94CF508E2EC177ECFCCB8C0438A /* Support Files */,
-			);
-			name = DWRandom;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CE650FBB19201CC81D126CDBA08F1FF4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C6B2077E3CC743EAB6F88860367C1D60 /* DWRandom.bundle */,
-				08326E7176D8EF9EB7D4A72F026896AC /* DWRandom.framework */,
-				3FCA224549153FD152D193463CAFE4DF /* Pods_DWRandom_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D311E4682F6E5DFD57DCE64D471130F0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				72A5DF467E13FF2D79B04F271BB27BEB /* DWRandom.h */,
-				5673D22AD639ED81A7BF70ACFF046272 /* NSArray+DWRandom.h */,
-				6712D17D9322DD4D9D126D3BFD202EA0 /* NSArray+DWRandom.m */,
-				92FD629E61B94A209EDAEC003F1A81CB /* NSCountedSet+DWRandom.h */,
-				9D619D6596AD94F4A22F7BB5E3584168 /* NSCountedSet+DWRandom.m */,
-				1E484D5CC9FB0E0FA4EE42A4019F55F5 /* NSData+DWRandom.h */,
-				DE2FB31AE7D6F5D0E536A703268FC549 /* NSData+DWRandom.m */,
-				1589B3A355D6B334C07612A8DC5FE9E6 /* NSDictionary+DWRandom.h */,
-				50FAF58E4121D3554A41E8783F6AFDED /* NSDictionary+DWRandom.m */,
-				FBB93E50CA29FA3DD21BEE99FEF610E5 /* NSMutableArray+DWRandom.h */,
-				108FB67726B8DAFF20F570DA1753776B /* NSMutableArray+DWRandom.m */,
-				9DA23CA1A9346316086064793E60F0E0 /* NSMutableDictionary+DWRandom.h */,
-				D4E296D65F4066827A1154650778CFBE /* NSMutableDictionary+DWRandom.m */,
-				C5B9EE97F2261924B536ECB7F66C3BA1 /* NSMutableSet+DWRandom.h */,
-				7F71F59EEA2C55576C90CB32B317DE03 /* NSMutableSet+DWRandom.m */,
-				5C991E0DB07C621D3E0014F875C8132D /* NSMutableString+DWRandom.h */,
-				49D86040116BE96D54534CBB59A72984 /* NSMutableString+DWRandom.m */,
-				00FEC13BBE5CC5F8CF2306543850F083 /* NSNumber+DWRandom.h */,
-				6CFD2BD78F91F4D45A368812FFEF1937 /* NSNumber+DWRandom.m */,
-				41BD832037F2C07D5A1263B07E47B83E /* NSOrderedSet+DWRandom.h */,
-				9EFC8AAB31E29B97BBA5F1C63EE5547D /* NSOrderedSet+DWRandom.m */,
-				9AEF1FB59EA61ED093272DA1757258B0 /* NSSet+DWRandom.h */,
-				9F42F00047C588FA597A156B8BBE3E63 /* NSSet+DWRandom.m */,
-				21C21B99C85ECC4FB62F7EB05D80534B /* NSString+DWRandom.h */,
-				BA62B8F4F126AED62B2F12F5C19996D5 /* NSString+DWRandom.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E285F94CF508E2EC177ECFCCB8C0438A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3793BC0EB92B3B843A4FFC74D0C1690 /* DWRandom.modulemap */,
-				B7081E7168AC69C855EC709F0309B5B5 /* DWRandom.xcconfig */,
-				5491D112762751006AC242954C97E9CD /* DWRandom-dummy.m */,
-				4324D667FFAEE3771435B918D12036E7 /* DWRandom-prefix.pch */,
-				6BEB2A733C705208816A034D99DD7E84 /* DWRandom-umbrella.h */,
-				B9C01DA5CFFB7660037267AE950CABA6 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DWRandom";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -280,24 +255,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBB87D56303A13688F2D47C233DF6FAC /* Headers */ = {
+		4067A924FD43844C990ACFEB2361A7A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB06AB942ED63E7CA7709EACC04D996E /* DWRandom-umbrella.h in Headers */,
-				2A94CCB2ABF2D8BAD4DDF256E8538CA6 /* DWRandom.h in Headers */,
-				C44A394C0BC923E4081DD553B2824080 /* NSArray+DWRandom.h in Headers */,
-				3649A80168D828801A752A5ADAE68BC4 /* NSCountedSet+DWRandom.h in Headers */,
-				2CA56EFFB1E39F83517AA7686118CB9E /* NSData+DWRandom.h in Headers */,
-				F0E43CFCFE6AE7824555D52A5E5EE339 /* NSDictionary+DWRandom.h in Headers */,
-				6F7E9A9D8DB4B0882E8C05D9BA08FF6F /* NSMutableArray+DWRandom.h in Headers */,
-				40FF61D5B64C9DB15863A51FB1569914 /* NSMutableDictionary+DWRandom.h in Headers */,
-				093831CDA287500AD3B71B3C88A99FBC /* NSMutableSet+DWRandom.h in Headers */,
-				76C82A5CEC8143E79F692EB68A86FC4B /* NSMutableString+DWRandom.h in Headers */,
-				A01997A3C73EC65E68C3B3C8C572D5F8 /* NSNumber+DWRandom.h in Headers */,
-				6907D20DD860CAE038AB3A2AE547A161 /* NSOrderedSet+DWRandom.h in Headers */,
-				A0FC46B7412AC66F3DABB4804195B5D7 /* NSSet+DWRandom.h in Headers */,
-				40233CE520B2C3F0B20C30B6CCAD5165 /* NSString+DWRandom.h in Headers */,
+				BB8D35EDC6412176D36F2133DB2D6D4B /* DWRandom-umbrella.h in Headers */,
+				93DE333F8455377BE4BC532CF00CCD24 /* DWRandom.h in Headers */,
+				42CB7747AE80AA5067ACBC2BAE836EA1 /* NSArray+DWRandom.h in Headers */,
+				C7FA0F6EF2E32E895650395F92E17D20 /* NSCountedSet+DWRandom.h in Headers */,
+				9D558F72AEF701DB33BE9C0AED558CD9 /* NSData+DWRandom.h in Headers */,
+				669AD299DDB7B001ABBABB39C00025D4 /* NSDictionary+DWRandom.h in Headers */,
+				FBA27887C341CD279CD8B3F87DA3F4D6 /* NSMutableArray+DWRandom.h in Headers */,
+				79C14277B413E8A1BA1BD10E6E57EBB8 /* NSMutableDictionary+DWRandom.h in Headers */,
+				8F302348C13F7EB9C9E2019B397FE7D4 /* NSMutableSet+DWRandom.h in Headers */,
+				670EDFBD8BE3B75782A9AA82EFB907F8 /* NSMutableString+DWRandom.h in Headers */,
+				3FBC29DBEF37D9F3739B110A500C6873 /* NSNumber+DWRandom.h in Headers */,
+				8B58D01FDF80728C3E57CE8ECA30F877 /* NSOrderedSet+DWRandom.h in Headers */,
+				5F88EAA15B4D196777175C413D24AB7A /* NSSet+DWRandom.h in Headers */,
+				4B7000AB75EF0495F51DD5841C327112 /* NSString+DWRandom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,43 +294,24 @@
 			);
 			name = "Pods-DWRandom_Tests";
 			productName = "Pods-DWRandom_Tests";
-			productReference = 3FCA224549153FD152D193463CAFE4DF /* Pods_DWRandom_Tests.framework */;
+			productReference = FFF0F3F3B5722E769D624AB7A7EBDBF0 /* Pods_DWRandom_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E469A517BB01865C1953BDE5305972DA /* DWRandom-DWRandom */ = {
+		98871D5877FC608A5D398F3C0566C342 /* DWRandom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91CB7DF16C49DB2A377E6815FC8BC30D /* Build configuration list for PBXNativeTarget "DWRandom-DWRandom" */;
+			buildConfigurationList = 54A8056976976DC77C9CDF2538726751 /* Build configuration list for PBXNativeTarget "DWRandom" */;
 			buildPhases = (
-				F0B5884E92351CA23268EEC5C92DA840 /* Sources */,
-				FA68E28415513970BFFAC315D7D004A0 /* Frameworks */,
-				B24B78A56B5C1FE73D89504818AD6268 /* Resources */,
+				293E388514BFE4D06C4ECB88216AEF54 /* Sources */,
+				695F4E7269F301859B39AC5009537A63 /* Frameworks */,
+				4067A924FD43844C990ACFEB2361A7A6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "DWRandom-DWRandom";
-			productName = "DWRandom-DWRandom";
-			productReference = C6B2077E3CC743EAB6F88860367C1D60 /* DWRandom.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		E8EB3024D8F5282FB8FBA17173F3AB2D /* DWRandom */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15032F6880CA523DD06D33421ECEA9A8 /* Build configuration list for PBXNativeTarget "DWRandom" */;
-			buildPhases = (
-				4F6DE1D565C5BCA0BBC3B44A78DF7DE1 /* Sources */,
-				2C43219F4C0D985F4D8F2FD7C6D5CB09 /* Frameworks */,
-				84E50409C11A2BF2F8A233853A9202E0 /* Resources */,
-				BBB87D56303A13688F2D47C233DF6FAC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3EAC3D9B8EE7B460E12D3F987276AFC0 /* PBXTargetDependency */,
 			);
 			name = DWRandom;
 			productName = DWRandom;
-			productReference = 08326E7176D8EF9EB7D4A72F026896AC /* DWRandom.framework */;
+			productReference = A7E1D9E165FBF934D2B61B76EBC7160D /* DWRandom.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,7 +321,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,53 +331,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CE650FBB19201CC81D126CDBA08F1FF4 /* Products */;
+			productRefGroup = 08F9C38C17530A82980D5C2DD13CBF1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8EB3024D8F5282FB8FBA17173F3AB2D /* DWRandom */,
-				E469A517BB01865C1953BDE5305972DA /* DWRandom-DWRandom */,
+				98871D5877FC608A5D398F3C0566C342 /* DWRandom */,
 				7CDB09C5CD3D5971E67E1817DAB19A76 /* Pods-DWRandom_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		84E50409C11A2BF2F8A233853A9202E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E1A8793FC5004D02901D8F917A83411 /* DWRandom.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B24B78A56B5C1FE73D89504818AD6268 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		4F6DE1D565C5BCA0BBC3B44A78DF7DE1 /* Sources */ = {
+		293E388514BFE4D06C4ECB88216AEF54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59DDDCE51AD34929C67D85BE4E76780A /* DWRandom-dummy.m in Sources */,
-				44413AC9020D4A79050ED0A2B6DA31CA /* NSArray+DWRandom.m in Sources */,
-				23CF9802B549D9ACC6A0D0C2380AAAAD /* NSCountedSet+DWRandom.m in Sources */,
-				38285452D87D17560C55F678723363AA /* NSData+DWRandom.m in Sources */,
-				4C04FC62E2A701F6DA535ECBC018346D /* NSDictionary+DWRandom.m in Sources */,
-				A1F4E030836795B01E1C35DED0EA0DDF /* NSMutableArray+DWRandom.m in Sources */,
-				995626D834F90A8048AE5D92025D8021 /* NSMutableDictionary+DWRandom.m in Sources */,
-				7ADE021033CD77172D583113F6CF8087 /* NSMutableSet+DWRandom.m in Sources */,
-				6496415891EB6B4AA82B517096AA75C0 /* NSMutableString+DWRandom.m in Sources */,
-				FBE1B228D6742374B89343856AC25E31 /* NSNumber+DWRandom.m in Sources */,
-				63D46A12CB7409AF83C84D25D8215DD3 /* NSOrderedSet+DWRandom.m in Sources */,
-				C144EE594B82BE80D8CFC25813756FE4 /* NSSet+DWRandom.m in Sources */,
-				F26E50F7F6841D90D921C559E5A9C864 /* NSString+DWRandom.m in Sources */,
+				09E47A8F37CC6746E6B603B21A125CFA /* DWRandom-dummy.m in Sources */,
+				B841CEEC4114D1A3FFDD48A5F378FC55 /* NSArray+DWRandom.m in Sources */,
+				A52BC99EE2B9ADAEA57F5C46375612A6 /* NSCountedSet+DWRandom.m in Sources */,
+				6A7A127D86E3729E8927E64434200CA6 /* NSData+DWRandom.m in Sources */,
+				9C3D02C0F05B5EA65761DB4D71DEA946 /* NSDictionary+DWRandom.m in Sources */,
+				6A45D43524A9D99971F4FF4E68C8D4C1 /* NSMutableArray+DWRandom.m in Sources */,
+				CBA6560DAA18BD99070E6B5615ACE5BC /* NSMutableDictionary+DWRandom.m in Sources */,
+				68FA7A3BA9CC5A92C488FBD26EFB3757 /* NSMutableSet+DWRandom.m in Sources */,
+				8E1E1E8CFE675C8E4F3477F9565544D8 /* NSMutableString+DWRandom.m in Sources */,
+				89A0E0C2773FA8C6B03A958F32103908 /* NSNumber+DWRandom.m in Sources */,
+				C40AAF38E4342E766BEBBE161F13EEEE /* NSOrderedSet+DWRandom.m in Sources */,
+				D23320C0DB5343E674434B7AE8B3CCBD /* NSSet+DWRandom.m in Sources */,
+				6C9547DF16A399D31E887054839EB27A /* NSString+DWRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,27 +370,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B5884E92351CA23268EEC5C92DA840 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		321ADEA9FD0536AF6087AFF1FF674FD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DWRandom;
-			target = E8EB3024D8F5282FB8FBA17173F3AB2D /* DWRandom */;
+			target = 98871D5877FC608A5D398F3C0566C342 /* DWRandom */;
 			targetProxy = C02D0C8BC94A4F361E040D45D332E7BC /* PBXContainerItemProxy */;
-		};
-		3EAC3D9B8EE7B460E12D3F987276AFC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DWRandom-DWRandom";
-			target = E469A517BB01865C1953BDE5305972DA /* DWRandom-DWRandom */;
-			targetProxy = C55F1BEFF725D82685A4CDD4587B7C0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -510,7 +434,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -532,17 +455,59 @@
 			};
 			name = Debug;
 		};
-		0F7EF3B578167015DC839FC75B518B66 /* Debug */ = {
+		18836E233AB9C1D06E94FBA61BE9AACB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7081E7168AC69C855EC709F0309B5B5 /* DWRandom.xcconfig */;
+			baseConfigurationReference = 8E0F951178D62E9EAFD3A265A90A7245 /* DWRandom.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DWRandom/DWRandom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DWRandom/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DWRandom/DWRandom.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = DWRandom;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4149722281FF8B6F1C8F1DC1956E5A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0F951178D62E9EAFD3A265A90A7245 /* DWRandom.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DWRandom/DWRandom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DWRandom/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DWRandom/DWRandom.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DWRandom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7C3B8EA8FD71DF5D6E66F65B5E04B9D2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -565,25 +530,12 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_DWRandom_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AF73A0F9017B0A44B611F39FD841E597 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7081E7168AC69C855EC709F0309B5B5 /* DWRandom.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DWRandom;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -608,7 +560,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_DWRandom_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -618,74 +569,9 @@
 			};
 			name = Debug;
 		};
-		B8260E8B117A4767D2E1F41678D237E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7081E7168AC69C855EC709F0309B5B5 /* DWRandom.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DWRandom/DWRandom-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DWRandom/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DWRandom/DWRandom.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = DWRandom;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F892DB0FD8AB867D96A7159268811029 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7081E7168AC69C855EC709F0309B5B5 /* DWRandom.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DWRandom/DWRandom-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DWRandom/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DWRandom/DWRandom.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = DWRandom;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15032F6880CA523DD06D33421ECEA9A8 /* Build configuration list for PBXNativeTarget "DWRandom" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8260E8B117A4767D2E1F41678D237E0 /* Debug */,
-				F892DB0FD8AB867D96A7159268811029 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -695,11 +581,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91CB7DF16C49DB2A377E6815FC8BC30D /* Build configuration list for PBXNativeTarget "DWRandom-DWRandom" */ = {
+		54A8056976976DC77C9CDF2538726751 /* Build configuration list for PBXNativeTarget "DWRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F7EF3B578167015DC839FC75B518B66 /* Debug */,
-				AF73A0F9017B0A44B611F39FD841E597 /* Release */,
+				18836E233AB9C1D06E94FBA61BE9AACB /* Debug */,
+				4149722281FF8B6F1C8F1DC1956E5A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

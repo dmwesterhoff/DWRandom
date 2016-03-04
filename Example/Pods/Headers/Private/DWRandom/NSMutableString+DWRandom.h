@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/NSMutableString+DWRandom.h
+../../../../../DWRandom/NSMutableString+DWRandom.h

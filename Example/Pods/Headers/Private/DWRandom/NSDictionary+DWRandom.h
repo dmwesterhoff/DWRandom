@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/NSDictionary+DWRandom.h
+../../../../../DWRandom/NSDictionary+DWRandom.h

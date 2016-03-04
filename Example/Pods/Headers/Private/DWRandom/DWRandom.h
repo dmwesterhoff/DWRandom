@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/DWRandom.h
+../../../../../DWRandom/DWRandom.h

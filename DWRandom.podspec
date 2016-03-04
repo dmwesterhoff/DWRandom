@@ -13,19 +13,19 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/dmwesterhoff/DWRandom"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "David Westerhoff" => "dmwesterhoff@gmail.com" }
   s.source           = { :git => "https://github.com/dmwesterhoff/DWRandom.git", :tag => s.version.to_s }
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DWRandom' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'DWRandom/**/*'
+  # s.resource_bundles = {
+  #   'DWRandom' => ['Pod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
