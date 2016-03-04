@@ -21,8 +21,8 @@
 
 #import <Foundation/Foundation.h>
 
-/*!
- * @discussion Provides a random functionality extension to counted sets
+/**
+ *  Adds randomization functionality to the NSCountedSet collection
  */
 @interface NSCountedSet (DWRandom)
 

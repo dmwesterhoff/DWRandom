@@ -22,7 +22,7 @@
 #import <Foundation/Foundation.h>
 
 /**
- *  Adds randomization functionality as an extension to NSArray collection
+ *  Adds randomization functionality as an extension to the NSArray collection
  */
 @interface NSArray (DWRandom)
 

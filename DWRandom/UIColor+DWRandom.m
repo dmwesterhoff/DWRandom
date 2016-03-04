@@ -1,4 +1,4 @@
-// NSDictionary+DWRandom.h
+// UIColor+DWRandom.m
 // Copyright (c) 2016 David Westerhoff
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,34 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+#import "UIColor+DWRandom.h"
 
-/**
- *  Adds randomization functionality to the NSDictionary collection
- */
-@interface NSDictionary (DWRandom)
-
-/**-----------------------------------------------------------------------------
- * @name Instance Extension Methods
- * -----------------------------------------------------------------------------
- */
-
-/**
-*  Used to retrieve a random key from the dictionary. Gets a random
-*  index with the count as an upper bound and returns the key at that index.
-*
-*  @return A random key from the collection, or nil if there are no objects
-*  in the collection
-*/
-- (id)randomKey;
-
-/**
- *  Used to retrieve a random value from the dictionary. Gets a random
- *  index with the count as an upper bound and returns the value at that index.
- *
- *  @return A random value from the collection, or nil if there are no objects 
- *  in the collection
- */
-- (id)randomValue;
+@implementation UIColor (DWRandom)
 
 @end

@@ -1,4 +1,4 @@
-// NSDictionary+DWRandom.h
+// UIColor+DWRandom.h
 // Copyright (c) 2016 David Westerhoff
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,34 +19,29 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
- *  Adds randomization functionality to the NSDictionary collection
+ *  Adds randomization functionality to UIColor
  */
-@interface NSDictionary (DWRandom)
-
-/**-----------------------------------------------------------------------------
- * @name Instance Extension Methods
- * -----------------------------------------------------------------------------
- */
+@interface UIColor (DWRandom)
 
 /**
-*  Used to retrieve a random key from the dictionary. Gets a random
-*  index with the count as an upper bound and returns the key at that index.
-*
-*  @return A random key from the collection, or nil if there are no objects
-*  in the collection
-*/
-- (id)randomKey;
-
-/**
- *  Used to retrieve a random value from the dictionary. Gets a random
- *  index with the count as an upper bound and returns the value at that index.
+ *  Returns a color randomly by generating values for HSB, alpha defaults to 1
+ *  so no all colors are opaque.
  *
- *  @return A random value from the collection, or nil if there are no objects 
- *  in the collection
+ *  @return A random color
  */
-- (id)randomValue;
+- (UIColor*)randomColor;
+
+/**
+ *  Returns a color randomly by generating values for HSB, with the provided
+ *  alpha transparency value
+ *
+ *  @param alpha The alpha value in the range [0.0f-1.0f]
+ *
+ *  @return A random color with given alpha
+ */
+- (UIColor*)randomColorWithAlpha:(CGFloat)alpha;
 
 @end

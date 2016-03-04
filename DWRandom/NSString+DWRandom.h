@@ -68,8 +68,8 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
     DWRandomStringOptionHexLowercase
 };
 
-/*!
- * @discussion Provides a random functionality extension
+/**
+ *  Adds randomization functionality to NSString
  */
 @interface NSString (DWRandom)
 

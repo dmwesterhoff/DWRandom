@@ -21,8 +21,8 @@
 
 #import <Foundation/Foundation.h>
 
-/*!
- * @discussion Provides a random functionality extension
+/**
+ *  Adds randomization functionality to the NSOrderedSet collection
  */
 @interface NSOrderedSet (DWRandom)
 
