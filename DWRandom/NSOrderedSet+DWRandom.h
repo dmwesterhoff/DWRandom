@@ -31,11 +31,13 @@
  * -----------------------------------------------------------------------------
  */
 
-/*!
- * @discussion Used to retrieve a random object from the set. Gets a random index with the
- *             count as an upper bound and returns the object at that index.
- * @return A random object from the collection, or nil if there are no objects in the collection
- */
+/**
+*  Used to retrieve a random object from the set. Gets a random index with the
+*  count as an upper bound and returns the object at that index.
+*
+*  @return A random object from the collection, or nil if there are no objects
+*  in the collection
+*/
 - (id)randomObject;
 
 @end

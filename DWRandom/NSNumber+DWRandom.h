@@ -31,44 +31,60 @@
  * -----------------------------------------------------------------------------
  */
 
-/*!
- * @discussion Generates a random integer with a max at 4294967296 (0x100000000)
- */
+/**
+*  Generates a random integer with a max at 4294967296 (0x100000000)
+*
+*  @return A random unsigned integer
+*/
 + (unsigned int)randomInteger;
 
-/*!
- * @discussion Generates a random integer with an inclusive max, for example 5 will generate a
- *             a number from the set [0, 1, 2, 3, 4, 5]
- * @param max The inclusivive maximum of the random range used
+/**
+ *  Generates a random integer with an inclusive max, for example 5 will 
+ *  generate a number from the set [0, 1, 2, 3, 4, 5]
+ *
+ *  @param max The inclusivive maximum of the random range used
+ *
+ *  @return A random unsigned integer
  */
 + (unsigned int)randomIntegerWithMax:(unsigned int)max;
 
-/*!
- * @discussion Generates a random integer with inclusive min and max, for example 1-5 will generate
- *             a number from the set [1, 2, 3, 4, 5]
- * @param max The inclusivive maximum of the random range used
- * @param min The inclusivive minimum of the random range used
+/**
+ *  Generates a random integer with inclusive min and max, for example 1-5 will 
+ *  generate a number from the set [1, 2, 3, 4, 5]
+ *
+ *  @param min The inclusivive minimum of the random range used
+ *  @param max The inclusivive maximum of the random range used
+ *
+ *  @return A random unsigned integer
  */
 + (unsigned int)randomIntegerWithMin:(unsigned int)min
                                  max:(unsigned int)max;
 
-/*!
- * @discussion Generates a random number with a max at 4294967296 (0x100000000)
+/**
+ *  Generates a random number with a max at 4294967296 (0x100000000)
+ *
+ *  @return A random number
  */
 + (NSNumber*)randomNumber;
 
-/*!
- * @discussion Generates a random integer with an inclusive max, for example 5 will generate a
- *             a number from the set [0, 1, 2, 3, 4, 5]
- * @param max The inclusivive maximum of the random range used
+/**
+ *  Generates a random integer with an inclusive max, for example 5 will
+ *  generate a number from the set [0, 1, 2, 3, 4, 5]
+ *
+ *  @param max The inclusivive maximum of the random range used
+ *
+ *  @return A random number
  */
 + (NSNumber*)randomNumberWithMax:(unsigned int)max;
 
-/*!
- * @discussion Generates a random integer with inclusive min and max, for example 1-5 will generate
- *             a number from the set [1, 2, 3, 4, 5]
- * @param max The inclusivive maximum of the random range used
- * @param min The inclusivive minimum of the random range used
+/**
+ *  Generates a random integer with inclusive min and max, for example 1-5 will
+ *  generate a number from the set [1, 2, 3, 4, 5]
+ *
+ *  @param min The inclusivive minimum of the random range used
+ *  @param max The inclusivive maximum of the random range used
+ *
+ *  @return A random number
  */
 + (NSNumber*)randomNumberWithMin:(unsigned int)min
                              max:(unsigned int)max;

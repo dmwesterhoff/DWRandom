@@ -9,11 +9,11 @@
 #import <DWRandom/DWRandom.h>
 #import <XCTest/XCTest.h>
 
-@interface DWRandomArrayTests : XCTestCase
+@interface DWRandomNSArrayTests : XCTestCase
 
 @end
 
-@implementation DWRandomArrayTests
+@implementation DWRandomNSArrayTests
 
 - (void)setUp
 {
@@ -27,12 +27,15 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testRandomObjectReturns
 {
     NSArray* array = @[ @"foo", @"bar", @"baz" ];
-    NSArray* emptyArray = @[];
-
     XCTAssertNotNil([array randomObject]);
+}
+
+- (void)testEmptyArrayReturnsNil
+{
+    NSArray* emptyArray = @[];
     XCTAssertNil([emptyArray randomObject]);
 }
 

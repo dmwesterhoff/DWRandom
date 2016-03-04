@@ -31,14 +31,16 @@
  * -----------------------------------------------------------------------------
  */
 
-/*!
- * @discussion Randomly shuffles the string in place
- */
+/**
+*  Randomly shuffles the string in place
+*/
 - (void)randomShuffle;
 
-/*!
- * @discussion Randomly selects a character from the string
- * @return A single character randomly chosen from the string instance or nil if the string is empty
+/**
+ *  Randomly selects a character from the string
+ *
+ *  @return A single character randomly chosen from the string instance or nil 
+ *  if the string is empty
  */
 - (NSString*)randomCharacter;
 

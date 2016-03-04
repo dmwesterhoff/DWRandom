@@ -21,49 +21,50 @@
 
 #import <Foundation/Foundation.h>
 
-/*!
- * @discussion Represents options when generating a random string
+/**
+ *  Represents options when generating a random string
  */
 typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
-    /*!
-   * @discussion The default option includes uppercase letters, lowercase letters, and numbers
-   *             the character set is 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZY0123456789'
-   */
+    /**
+     *  The default option includes uppercase letters, lowercase letters, and 
+     *  numbers the character set is 
+     *  'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZY0123456789'
+     */
     DWRandomStringOptionDefault,
 
-    /*!
-   * @discussion The option specifies all printable ascii characters, including punctuation
-   */
+    /**
+     *  The option specifies all printable ascii characters, including punctuation
+     */
     DWRandomStringOptionPrintableASCII,
 
-    /*!
-   * @discussion The option specifies only decimal numbers [0-9]
-   */
+    /**
+     *  The option specifies only decimal numbers [0-9]
+     */
     DWRandomStringOptionNumbers,
 
-    /*!
-   * @discussion The option specifies only letters, may be both capital case or lowercase
-   */
+    /**
+     *  The option specifies only letters, may be both capital case or lowercase
+     */
     DWRandomStringOptionLetters,
 
-    /*!
-   * @discussion The option specifies only uppcase letters
-   */
+    /**
+     *  The option specifies only uppcase letters
+     */
     DWRandomStringOptionUppercaseLetters,
 
-    /*!
-   * @discussion The option specifies only lowercase letters
-   */
+    /**
+     *  The option specifies only lowercase letters
+     */
     DWRandomStringOptionLowercaseLetters,
 
-    /*!
-   * @discussion The option specifies only hex characters [0-F] with uppcase letters
-   */
+    /**
+     *  The option specifies only hex characters [0-F] with uppcase letters
+     */
     DWRandomStringOptionHexUppercase,
 
-    /*!
-   * @discussion The option specifies only hex characters [0-f] with lowercase letters
-   */
+    /**
+     *  The option specifies only hex characters [0-f] with lowercase letters
+     */
     DWRandomStringOptionHexLowercase
 };
 
@@ -77,9 +78,11 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
  * -----------------------------------------------------------------------------
  */
 
-/*!
-* @discussion Randomly selects a character from the string
-* @return A single character randomly chosen from the string instance or nil if the string is empty
+/**
+*  Randomly selects a character from the string
+*
+*  @return A single character randomly chosen from the string instance or nil if
+*  the string is empty
 */
 - (NSString*)randomCharacter;
 
@@ -88,36 +91,45 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
  * -----------------------------------------------------------------------------
  */
 
-/*!
- * @discussion Generates a random string of chosen length
- * @return The generated random string of given length
- * @param length The number of characters generated in the random string
+/**
+ *  Generates a random string of chosen length
+ *
+ *  @param length The number of characters generated in the random string
+ *
+ *  @return The generated random string of given length
  */
 + (NSString*)randomStringOfLength:(NSUInteger)length;
 
-/*!
- * @discussion Generates a random string of any length and with a specific character set
- * @see DWRandomStringOption
- * @return The generated random string of given length and generation option
- * @param length The number of characters generated in the random string
- * @param option The character set option of what random characters to use
+/**
+ *  Generates a random string of any length and with a specific character set
+ *
+ *  @param length The number of characters generated in the random string
+ *  @param option The character set option of what random characters to use
+ *
+ *  @return  generated random string of given length and generation option
  */
 + (NSString*)randomStringOfLength:(NSUInteger)length
                            option:(DWRandomStringOption)option;
 
-/*!
- * @discussion Generates a random string with a supplied list of characters and length
- * @return The generated random string of given length and with the characters supplied
- * @param length The number of characters generated in the random string
- * @param characterSet The character used, for example @"abc" would randomly choose from only those
- *                     letters
+/**
+ *  Generates a random string with a supplied list of characters and length
+ *
+ *  @param length       The number of characters generated in the random string
+ *  @param characterSet The character used, for example @"abc" would randomly 
+ *  choose from only those letters only.
+ *
+ *  @return The generated random string of given length and with the characters
+ *  supplied
  */
 + (NSString*)randomStringOfLength:(NSUInteger)length
                      characterSet:(NSString*)characterSet;
 
-/*!
- * @discussion Randomly shuffles the string, not done in place the original is kept untouched
- * @param string The input string to be shuffled
+/**
+ *  Randomly shuffles the string, not done in place the original is kept untouched
+ *
+ *  @param string The input string to be shuffled
+ *
+ *  @return A deep copy of the newly shuffled string
  */
 + (NSString*)randomShuffle:(NSString*)string;
 
