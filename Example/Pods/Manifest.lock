@@ -1,0 +1,14 @@
+PODS:
+  - DWRandom (0.1.0)
+
+DEPENDENCIES:
+  - DWRandom (from `../`)
+
+EXTERNAL SOURCES:
+  DWRandom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DWRandom: 7d050aab3f672e1f9331ef22e080ce2daca59e57
+
+COCOAPODS: 0.39.0
