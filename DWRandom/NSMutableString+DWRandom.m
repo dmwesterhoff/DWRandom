@@ -31,8 +31,10 @@
         j = arc4random() % (i + 1);
 
         buffer = [self substringWithRange:NSMakeRange(i, 1)];
-        [self replaceCharactersInRange:NSMakeRange(i, 1) withString:[self substringWithRange:NSMakeRange(j, 1)]];
-        [self replaceCharactersInRange:NSMakeRange(j, 1) withString:buffer];
+        [self replaceCharactersInRange:NSMakeRange(i, 1)
+                            withString:[self substringWithRange:NSMakeRange(j, 1)]];
+        [self replaceCharactersInRange:NSMakeRange(j, 1)
+                            withString:buffer];
     }
 }
 

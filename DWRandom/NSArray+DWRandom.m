@@ -43,7 +43,8 @@
     // Fisher-Yates shuffle
     if (count > 1) {
         for (NSUInteger i = count - 1; i > 0; --i) {
-            [randomArray exchangeObjectAtIndex:i withObjectAtIndex:arc4random_uniform((int32_t)(i + 1))];
+            [randomArray exchangeObjectAtIndex:i
+                             withObjectAtIndex:arc4random_uniform((int32_t)(i + 1))];
         }
     }
     return randomArray;

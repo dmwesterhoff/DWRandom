@@ -96,8 +96,10 @@
         j = arc4random() % (i + 1);
 
         buffer = [randomizedText substringWithRange:NSMakeRange(i, 1)];
-        [randomizedText replaceCharactersInRange:NSMakeRange(i, 1) withString:[randomizedText substringWithRange:NSMakeRange(j, 1)]];
-        [randomizedText replaceCharactersInRange:NSMakeRange(j, 1) withString:buffer];
+        [randomizedText replaceCharactersInRange:NSMakeRange(i, 1)
+                                      withString:[randomizedText substringWithRange:NSMakeRange(j, 1)]];
+        [randomizedText replaceCharactersInRange:NSMakeRange(j, 1)
+                                      withString:buffer];
     }
     return randomizedText;
 }
