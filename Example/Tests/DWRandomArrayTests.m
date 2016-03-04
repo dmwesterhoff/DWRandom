@@ -6,13 +6,14 @@
 //  Copyright (c) 2016 David Westerhoff. All rights reserved.
 //
 
-@import XCTest;
+#import <DWRandom/DWRandom.h>
+#import <XCTest/XCTest.h>
 
-@interface Tests : XCTestCase
+@interface DWRandomArrayTests : XCTestCase
 
 @end
 
-@implementation Tests
+@implementation DWRandomArrayTests
 
 - (void)setUp
 {
@@ -28,8 +29,11 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSArray* array = @[ @"foo", @"bar", @"baz" ];
+    NSArray* emptyArray = @[];
+
+    XCTAssertNotNil([array randomObject]);
+    XCTAssertNil([emptyArray randomObject]);
 }
 
 @end
-
