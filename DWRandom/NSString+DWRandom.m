@@ -29,7 +29,7 @@
     return [self substringWithRange:NSMakeRange(arc4random_uniform((u_int32_t)[self length]), 1)];
 }
 
-#pragma mark - Static Methods
+#pragma mark - Class Methods
 + (NSString*)randomStringOfLength:(NSUInteger)length
                      characterSet:(NSString*)characterSet
 {

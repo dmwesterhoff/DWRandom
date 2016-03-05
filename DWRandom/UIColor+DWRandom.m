@@ -23,4 +23,17 @@
 
 @implementation UIColor (DWRandom)
 
+#pragma mark - Class Methods
++ (UIColor*)randomColor
+{
+}
+
++ (UIColor*)randomColorWithAlpha:(CGFloat)alpha
+{
+}
+
++ (UIColor*)randomColorWithRandomAlpha
+{
+}
+
 @end

@@ -26,13 +26,18 @@
  */
 @interface UIColor (DWRandom)
 
+/**-----------------------------------------------------------------------------
+ * @name Class Extension Methods
+ * -----------------------------------------------------------------------------
+ */
+
 /**
  *  Returns a color randomly by generating values for HSB, alpha defaults to 1
  *  so no all colors are opaque.
  *
  *  @return A random color
  */
-- (UIColor*)randomColor;
++ (UIColor*)randomColor;
 
 /**
  *  Returns a color randomly by generating values for HSB, with the provided
@@ -42,6 +47,13 @@
  *
  *  @return A random color with given alpha
  */
-- (UIColor*)randomColorWithAlpha:(CGFloat)alpha;
++ (UIColor*)randomColorWithAlpha:(CGFloat)alpha;
 
+/**
+ *  Returns a color randomly by generating values for HSB, alpha defaults to 1
+ *  so no all colors are opaque.
+ *
+ *  @return A random color with a random alpha value
+ */
++ (UIColor*)randomColorWithRandomAlpha;
 @end

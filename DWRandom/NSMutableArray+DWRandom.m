@@ -47,7 +47,7 @@
     }
 }
 
-#pragma mark - Static Methods
+#pragma mark - Class Methods
 + (NSMutableArray*)randomShuffle:(NSMutableArray*)array
 {
     NSMutableArray* randomArray = [NSMutableArray arrayWithArray:array];
