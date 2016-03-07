@@ -32,16 +32,25 @@
  */
 
 /**
-*  Used to retrieve a random object from the array. Gets a random index with the
-*  count as an upper bound and returns the object at that index.
-*
-*  @return A random object from the collection, or nil if there are no objects
-*  in the collection
-*/
+ *  Used to retrieve a random object from the array. Gets a random index with the
+ *  count as an upper bound and returns the object at that index.
+ *
+ *  @code
+ *  id randomObject = [mutableArray randomObject];
+ *  @endcode
+ *
+ *  @return A random object from the collection, or nil if there are no objects
+ *  in the collection
+ */
 - (id)randomObject;
 
 /**
  *  Shuffles the array in place with a Fisher-Yates shuffle.
+ *
+ *  @code
+ *  [mutableArray randomShuffle];
+ *  @endcode
+ *
  */
 - (void)randomShuffle;
 
@@ -52,6 +61,10 @@
 
 /**
  *  Returns a shuffled copy of the array. The original is untouched.
+ *
+ *  @code
+ *  NSMutableArray shuffledArray = [NSMutableArray randomShuffle:mutableArray];
+ *  @endcode
  *
  *  @param array The array to be shuffled.
  *

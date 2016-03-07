@@ -32,14 +32,23 @@
  */
 
 /**
-*  Randomly shuffles the string in place
-*/
+ *  Randomly shuffles the string in place
+ *
+ *  @code
+ *  [mutableString randomShuffle];
+ *  @endcode
+ *
+ */
 - (void)randomShuffle;
 
 /**
  *  Randomly selects a character from the string
  *
- *  @return A single character randomly chosen from the string instance or nil 
+ *  @code
+ *  NSString *randomCharacter = [mutableString randomCharacter];
+ *  @endcode
+ *
+ *  @return A single character randomly chosen from the string instance or nil
  *  if the string is empty
  */
 - (NSString*)randomCharacter;

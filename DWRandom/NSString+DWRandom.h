@@ -79,11 +79,15 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
  */
 
 /**
-*  Randomly selects a character from the string
-*
-*  @return A single character randomly chosen from the string instance or nil if
-*  the string is empty
-*/
+ *  Randomly selects a character from the string
+ *
+ *  @code
+ *  NSString *randomCharacter = [string randomCharacter];
+ *  @endcode
+ *
+ *  @return A single character randomly chosen from the string instance or nil if
+ *  the string is empty
+ */
 - (NSString*)randomCharacter;
 
 /**-----------------------------------------------------------------------------
@@ -94,6 +98,10 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
 /**
  *  Generates a random string of chosen length
  *
+ *  @code
+ *  NSString *randomString = [NSString randomStringOfLength:10];
+ *  @endcode
+ *
  *  @param length The number of characters generated in the random string
  *
  *  @return The generated random string of given length
@@ -102,6 +110,11 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
 
 /**
  *  Generates a random string of any length and with a specific character set
+ *
+ *  @code
+ *  NSString *randomString = [NSString randomStringOfLength:10
+ *                                                   option:DWRandomStringOptionNumbers];
+ *  @endcode
  *
  *  @param length The number of characters generated in the random string
  *  @param option The character set option of what random characters to use
@@ -113,6 +126,11 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
 
 /**
  *  Generates a random string with a supplied list of characters and length
+ *
+ *  @code
+ *  NSString *randomString = [NSString randomStringOfLength:10
+ *                                             characterSet:@"abcd"];
+ *  @endcode
  *
  *  @param length       The number of characters generated in the random string
  *  @param characterSet The character used, for example @"abc" would randomly 
@@ -126,6 +144,10 @@ typedef NS_ENUM(NSUInteger, DWRandomStringOption) {
 
 /**
  *  Randomly shuffles the string, not done in place the original is kept untouched
+ *
+ *  @code
+ *  NSString *shuffledString = [NSString randomShuffle:string];
+ *  @endcode
  *
  *  @param string The input string to be shuffled
  *
