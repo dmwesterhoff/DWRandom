@@ -62,12 +62,12 @@ Coming soon...
 ### History
 -----------
 
-v1.0 - First release
+v1.0 (3/6/16) - Intial project release
 
 ### Author
 ----------
 
-David Westerhoff, dmwesterhoff@gmail.com
+David Westerhoff - dmwesterhoff<at>gmail<dot>com
 
 ### License
 -----------
