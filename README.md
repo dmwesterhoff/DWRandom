@@ -62,7 +62,7 @@ Coming soon...
 ### History
 -----------
 
-*v1.0*- Intial project release (3/6/16)
+v1.0 - Intial project release *(3/6/16)*
 
 ### Author
 ----------
