@@ -1,4 +1,5 @@
-# DWRandom
+![Alt text](/logo.png?raw=true "DWRandom")
+------------------------------------------
 
 [![CI Status](http://img.shields.io/travis/David Westerhoff/DWRandom.svg?style=flat)](https://travis-ci.org/David Westerhoff/DWRandom)
 [![Version](https://img.shields.io/cocoapods/v/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
@@ -6,6 +7,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 
 ### Table of Contents
+---------------------
 
 - [DWRandom](#DWRandom)
 * [Install](#install)
@@ -17,6 +19,7 @@
 * [License](#license)
 
 ### Install
+-----------
 
 DWRandom is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -26,14 +29,17 @@ pod "DWRandom"
 ```
 
 ### Usage
+---------
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ### Docs
+--------
 
 Coming soon...
 
 ### Contributing
+----------------
 
 1. Fork it
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -42,14 +48,17 @@ Coming soon...
 5. Submit a pull request
 
 ### History
+-----------
 
 v1.0 - First release
 
 ### Author
+----------
 
 David Westerhoff, dmwesterhoff@gmail.com
 
 ### License
+-----------
 
 The MIT License (MIT)
 
