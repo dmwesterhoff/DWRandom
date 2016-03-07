@@ -32,16 +32,24 @@
  */
 
 /**
- *  Returns a color randomly by generating values for HSB, alpha defaults to 1
+ *  Returns a color randomly by generating values for RGB, alpha defaults to 1
  *  so no all colors are opaque.
+ *
+ *  @code
+ *  UIColor *randomColor = [UIColor randomColor];
+ *  @endcode
  *
  *  @return A random color
  */
 + (UIColor*)randomColor;
 
 /**
- *  Returns a color randomly by generating values for HSB, with the provided
+ *  Returns a color randomly by generating values for RGB, with the provided
  *  alpha transparency value
+ *
+ *  @code
+ *  UIColor *randomColor = [UIColor randomColorWithAlpha:0.5];
+ *  @endcode
  *
  *  @param alpha The alpha value in the range [0.0f-1.0f]
  *
@@ -50,8 +58,12 @@
 + (UIColor*)randomColorWithAlpha:(CGFloat)alpha;
 
 /**
- *  Returns a color randomly by generating values for HSB, alpha defaults to 1
+ *  Returns a color randomly by generating values for RGB, alpha defaults to 1
  *  so no all colors are opaque.
+ *
+ *  @code
+ *  UIColor *randomColor = [UIColor randomColorWithRandomAlpha];
+ *  @endcode
  *
  *  @return A random color with a random alpha value
  */

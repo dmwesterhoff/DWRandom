@@ -26,14 +26,39 @@
 #pragma mark - Class Methods
 + (UIColor*)randomColor
 {
+    CGFloat randomRedValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomGreenValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomBlueValue = arc4random_uniform(255) / 255.0;
+
+    return [[UIColor alloc] initWithRed:randomRedValue
+                                  green:randomGreenValue
+                                   blue:randomBlueValue
+                                  alpha:1];
 }
 
 + (UIColor*)randomColorWithAlpha:(CGFloat)alpha
 {
+    CGFloat randomRedValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomGreenValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomBlueValue = arc4random_uniform(255) / 255.0;
+
+    return [[UIColor alloc] initWithRed:randomRedValue
+                                  green:randomGreenValue
+                                   blue:randomBlueValue
+                                  alpha:alpha];
 }
 
 + (UIColor*)randomColorWithRandomAlpha
 {
+    CGFloat randomRedValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomGreenValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomBlueValue = arc4random_uniform(255) / 255.0;
+    CGFloat randomAlphaValue = arc4random_uniform(255) / 255.0;
+
+    return [[UIColor alloc] initWithRed:randomRedValue
+                                  green:randomGreenValue
+                                   blue:randomBlueValue
+                                  alpha:randomAlphaValue];
 }
 
 @end

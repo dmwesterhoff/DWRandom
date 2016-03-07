@@ -35,6 +35,10 @@
 *  Used to retrieve a random key from the dictionary. Gets a random
 *  index with the count as an upper bound and returns the key at that index.
 *
+*  @code
+*  id randomKey = [dictionary randomKey];
+*  @endcode
+*
 *  @return A random key from the collection, or nil if there are no objects
 *  in the collection
 */
@@ -44,7 +48,11 @@
  *  Used to retrieve a random value from the dictionary. Gets a random
  *  index with the count as an upper bound and returns the value at that index.
  *
- *  @return A random value from the collection, or nil if there are no objects 
+ *  @code
+ *  id randomValue = [dictionary randomValue];
+ *  @endcode
+ *
+ *  @return A random value from the collection, or nil if there are no objects
  *  in the collection
  */
 - (id)randomValue;

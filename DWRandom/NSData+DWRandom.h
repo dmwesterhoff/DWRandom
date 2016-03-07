@@ -32,12 +32,16 @@
  */
 
 /**
-*  Generates a random data of chosen length
-*
-*  @param length The number of bytes to generate
-*
-*  @return The generated random data of given length
-*/
+ *  Generates a random data of chosen length
+ *
+ *  @code
+ *  NSData randomData = [NSData randomDataOfLength:16];
+ *  @endcode
+ *
+ *  @param length The number of bytes to generate
+ *
+ *  @return The generated random data of given length
+ */
 + (NSData*)randomDataOfLength:(NSUInteger)length;
 
 @end

@@ -32,18 +32,16 @@
  */
 
 /**
-*  Used to retrieve a random object from the array. Gets a random index with the 
-*  count as an upper bound and returns the object at that index.
-*
-*  Usage:
-*
-*  @code
-*  randomObject = [myArray randomObject];
-*  @endcode
-*
-*  @return A random object from the collection, or nil if there are no objects 
-*  in the collection.
-*/
+ *  Used to retrieve a random object from the array. Gets a random index with the
+ *  count as an upper bound and returns the object at that index.
+ *
+ *  @code
+ *  id randomObject = [array randomObject];
+ *  @endcode
+ *
+ *  @return A random object from the collection, or nil if there are no objects
+ *  in the collection.
+ */
 - (id)randomObject;
 
 /**-----------------------------------------------------------------------------
@@ -54,10 +52,8 @@
 /**
  *  Returns a shuffled copy of the inputted array.
  *
- *  Usage:
- *
  *  @code
- *  shuffledArray = [NSArray randomShuffle:array];
+ *  NSArray *shuffledArray = [NSArray randomShuffle:array];
  *  @endcode
  *
  *  @param array The array to be shuffled.
