@@ -6,6 +6,18 @@
 [![License](https://img.shields.io/cocoapods/l/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![Platform](https://img.shields.io/cocoapods/p/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 
+Sometimes life calls for a bit of randomness.
+
+Whether or not its grabbing a marble from a bag, a card from a deck or
+something else entirely this library will give you a simple yet powerful
+addition to Foundation objects functionality, random behavior.
+
+DWRandom is a lightweight framework written in Objective-C that makes working
+with randomization in many of the Foundation core objects a breeze. The
+interface is extension based and aims to be dead simple to use and
+effortless to learn. Use DWRandom if you want to add a deadly one liner for
+randomization in your project.
+
 ### Table of Contents
 ---------------------
 
