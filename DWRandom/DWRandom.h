@@ -34,7 +34,7 @@
 #import "NSOrderedSet+DWRandom.h"
 #import "NSSet+DWRandom.h"
 #import "NSString+DWRandom.h"
-#import "UIColor+DWRandom.h"
+//#import "UIColor+DWRandom.h"
 
 /**-----------------------------------------------------------------------------
  * @name Class Method Proxies
