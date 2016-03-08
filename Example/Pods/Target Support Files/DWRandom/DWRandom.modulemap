@@ -1,6 +1,0 @@
-framework module DWRandom {
-  umbrella header "DWRandom-umbrella.h"
-
-  export *
-  module * { export * }
-}

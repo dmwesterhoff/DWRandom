@@ -1,7 +1,7 @@
 ![Alt text](/logo.png?raw=true "DWRandom")
 ------------------------------------------
 
-[![CI Status](http://img.shields.io/travis/David Westerhoff/DWRandom.svg?style=flat)](https://travis-ci.org/David Westerhoff/DWRandom)
+[![CI Status](https://travis-ci.org/dmwesterhoff/DWRandom.svg?branch=master)](https://travis-ci.org/David Westerhoff/DWRandom)
 [![Version](https://img.shields.io/cocoapods/v/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![License](https://img.shields.io/cocoapods/l/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![Platform](https://img.shields.io/cocoapods/p/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
