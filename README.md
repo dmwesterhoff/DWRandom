@@ -80,9 +80,9 @@ UIColor *randomColor = [UIColor randomColor];
 ```
 
 Easy to remember right? Heres a comprehensive list of all available methods,
-for copy-paste snippets showing usage and examples keep reading.
+for copy-paste snippets showing usage and examples check out the [Docs](#docs)
 
-##### Foundation+DWRandom
+#### Foundation+DWRandom
 
 ###### NSArray
 
@@ -90,7 +90,7 @@ for copy-paste snippets showing usage and examples keep reading.
 - (id)randomObject;
 ```
 
-##### UIKit+DWRandom
+#### UIKit+DWRandom
 
 ###### UIColor
 
