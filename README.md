@@ -65,6 +65,38 @@ then simply add the files to your project, and use a local import header
 ### Usage
 ---------
 
+To make things easy to remember all methods in the DWRandom library are 
+prefixed with the word 'random'. For example choosing a random element from
+an array.
+
+```objc
+id randomObject = [array randomObject];
+```
+
+or grabbing a random UIColor...
+
+```objc
+UIColor *randomColor = [UIColor randomColor];
+```
+
+Easy to remember right? Heres a comprehensive list of all available methods,
+for copy-paste snippets showing usage and examples keep reading.
+
+##### Foundation+DWRandom
+
+###### NSArray
+
+```objc
+- (id)randomObject;
+```
+
+##### UIKit+DWRandom
+
+###### UIColor
+
+```objc
+- (UIColor*)randomColor;
+```
 
 ### Docs
 --------

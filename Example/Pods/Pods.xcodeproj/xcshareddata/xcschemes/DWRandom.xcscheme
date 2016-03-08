@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B62D799250407DF815645EDA'
+               BlueprintIdentifier = '1D088F242B24D23FC9D8643D'
                BlueprintName = 'DWRandom'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DWRandom.framework'>
