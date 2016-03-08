@@ -42,6 +42,12 @@ it, simply add the following line to your Podfile:
 pod "DWRandom"
 ```
 
+Now you can add to your project with
+
+```objc
+#import <DWRandom/DWRandom.h>
+```
+
 ###### Source
 
 You can clone the repo with git:
@@ -52,14 +58,13 @@ git clone https://github.com/dmwesterhoff/DWRandom.git
 
 then simply add the files to your project, and use a local import header
 
-```
+```objc
 #import "DWRandom.h"
 ```
 
 ### Usage
 ---------
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ### Docs
 --------
