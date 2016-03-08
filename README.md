@@ -33,11 +33,27 @@ randomization in your project.
 ### Install
 -----------
 
+###### Cocoapods
+
 DWRandom is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```
 pod "DWRandom"
+```
+
+###### Source
+
+You can clone the repo with git:
+
+```
+git clone https://github.com/dmwesterhoff/DWRandom.git
+```
+
+then simply add the files to your project, and use a local import header
+
+```
+#import "DWRandom.h"
 ```
 
 ### Usage
