@@ -21,7 +21,6 @@ randomization in your project.
 ### Table of Contents
 ---------------------
 
-- [DWRandom](#DWRandom)
 * [Install](#install)
 * [Usage](#usage)
 * [Docs](#docs)
@@ -119,6 +118,11 @@ Coming soon...
 -----------
 
 v1.0 - Intial project release *(3/6/16)*
+
+### References
+--------------
+
+Coming soon...
 
 ### Author
 ----------
