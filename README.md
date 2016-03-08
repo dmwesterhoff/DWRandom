@@ -1,4 +1,4 @@
-![Alt text](/https://raw.githubusercontent.com/dmwesterhoff/DWRandom/master/logo.png "DWRandom")
+![Alt text](/https://raw.githubusercontent.com/dmwesterhoff/DWRandom/master/logo.png?raw=true "DWRandom")
 -------------------------------------------------------------------------------
 
 [![CI Status](https://travis-ci.org/dmwesterhoff/DWRandom.svg?branch=master)](https://travis-ci.org/David Westerhoff/DWRandom)
