@@ -89,6 +89,91 @@ for copy-paste snippets showing usage and examples check out the [Docs](#docs)
 
 ```objc
 - (id)randomObject;
++ (NSArray*)randomShuffle:(NSArray*)array;
+```
+
+###### NSMutableArray
+
+```objc
+- (id)randomObject;
+- (void)randomShuffle;
++ (NSMutableArray*)randomShuffle:(NSMutableArray*)array;
+```
+
+###### NSDictionary
+
+```objc
+- (id)randomKey;
+- (id)randomValue;
+```
+
+###### NSMutableDictionary
+
+```objc
+- (id)randomKey;
+- (id)randomValue;
+```
+
+###### NSSet
+
+```objc
+- (id)randomObject;
+```
+
+###### NSMutableSet
+
+```objc
+- (id)randomObject;
+```
+
+###### NSOrderedSet
+
+```objc
+- (id)randomObject;
+```
+
+###### NSCountedSet
+
+```objc
+- (id)randomObject;
+```
+
+###### NSData
+
+```objc
++ (NSData*)randomDataOfLength:(NSUInteger)length;
+```
+
+###### NSNumber
+
+```objc
++ (unsigned int)randomInteger;
++ (unsigned int)randomIntegerWithMax:(unsigned int)max;
++ (unsigned int)randomIntegerWithMin:(unsigned int)min
+                                 max:(unsigned int)max;
++ (NSNumber*)randomNumber;
++ (NSNumber*)randomNumberWithMax:(unsigned int)max;
++ (NSNumber*)randomNumberWithMin:(unsigned int)min
+                             max:(unsigned int)max;
+```
+
+###### NSString
+
+```objc
+- (NSString*)randomCharacter;
++ (NSString*)randomStringOfLength:(NSUInteger)length;
++ (NSString*)randomStringOfLength:(NSUInteger)length
+                           option:(DWRandomStringOption)option;
++ (NSString*)randomStringOfLength:(NSUInteger)length
+                     characterSet:(NSString*)characterSet;
++ (NSString*)randomShuffle:(NSString*)string;
+```
+
+###### NSMutableString
+
+```objc
+- (void)randomShuffle;
+- (NSString*)randomCharacter;
 ```
 
 #### UIKit+DWRandom
@@ -97,7 +182,9 @@ for copy-paste snippets showing usage and examples check out the [Docs](#docs)
 ###### UIColor
 
 ```objc
-- (UIColor*)randomColor;
++ (UIColor*)randomColor;
++ (UIColor*)randomColorWithAlpha:(CGFloat)alpha;
++ (UIColor*)randomColorWithRandomAlpha;
 ```
 
 ### Docs
