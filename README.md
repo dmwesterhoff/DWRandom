@@ -23,9 +23,11 @@ randomization in your project.
 
 * [Install](#install)
 * [Usage](#usage)
+* [Examples](#examples)
 * [Docs](#docs)
 * [Contributing](#contributing)
 * [History](#history)
+* [Roadmap](#roadmap)
 * [Author](#author)
 * [License](#license)
 
@@ -79,7 +81,8 @@ UIColor *randomColor = [UIColor randomColor];
 ```
 
 Easy to remember right? Heres a comprehensive list of all available methods,
-for copy-paste snippets showing usage and examples check out the [Docs](#docs)
+for copy-paste snippets showing many examples check out the 
+[Examples](#examples)
 
 
 #### Foundation+DWRandom
@@ -187,10 +190,16 @@ for copy-paste snippets showing usage and examples check out the [Docs](#docs)
 + (UIColor*)randomColorWithRandomAlpha;
 ```
 
+### Examples
+------------
+
+Coming soon...
+
 ### Docs
 --------
 
-Coming soon...
+You can check out the full reference documentation 
+[here](http://cocoadocs.org/docsets/DWRandom/)
 
 ### Contributing
 ----------------
@@ -205,6 +214,11 @@ Coming soon...
 -----------
 
 v1.0 - Intial project release *(3/6/16)*
+
+### Roadmap
+-----------
+
+Coming soon...
 
 ### References
 --------------
