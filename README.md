@@ -1,5 +1,5 @@
-![Alt text](/logo.png?raw=true "DWRandom")
-------------------------------------------
+![Alt text](/https://raw.githubusercontent.com/dmwesterhoff/DWRandom/master/logo.png "DWRandom")
+-------------------------------------------------------------------------------
 
 [![CI Status](https://travis-ci.org/dmwesterhoff/DWRandom.svg?branch=master)](https://travis-ci.org/David Westerhoff/DWRandom)
 [![Version](https://img.shields.io/cocoapods/v/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
@@ -213,7 +213,7 @@ You can check out the full reference documentation
 ### History
 -----------
 
-v1.0 - Intial project release *(3/6/16)*
+v0.1.0 - Intial project release *(3/6/16)*
 
 ### Roadmap
 -----------
