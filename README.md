@@ -281,6 +281,7 @@ Good reads for anyone that wants to do their own digging around.
 * [arc4random man pages](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/arc4random.3.html)
 * [/dev/urandom](http://linux.die.net/man/4/urandom)
 * [/dev/urandom myths](http://www.2uo.de/myths-about-urandom/)
+* [Fisher-Yates Shuffle](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle)
 
 ### Author
 ----------
