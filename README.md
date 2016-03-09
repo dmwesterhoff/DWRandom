@@ -217,9 +217,7 @@ Coming soon...
 -----------------
 
 You can check out the full reference documentation 
-[here](http://cocoadocs.org/docsets/DWRandom/), or if you have Dash, click 
-[here](dash-feed://http://cocoadocs.org/docsets/DWRandom/DWRandom.xml) to add
-the DWRandom docset.
+[here](http://cocoadocs.org/docsets/DWRandom/).
 
 ### Implementation
 ------------------
