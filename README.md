@@ -219,6 +219,9 @@ Coming soon...
 You can check out the full reference documentation 
 [here](http://cocoadocs.org/docsets/DWRandom/)
 
+got [Dash](https://kapeli.com/dash)? Add the DWRandom docset by 
+clicking [here](dash-feed://http%3A%2F%2Fcocoadocs.org%2Fdocsets%2FDWRandom%2FDWRandom.xml)
+
 ### Implementation
 ------------------
 
@@ -272,7 +275,6 @@ v0.1.0 - Intial project release *(3/6/16)*
 * +90% code testing coverage
 * AppKit Classes
 * Randomly add/pop from mutable arrays
-* 
 
 ### References
 --------------
