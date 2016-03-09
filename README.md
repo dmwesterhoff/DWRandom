@@ -168,6 +168,7 @@ for copy-paste snippets showing many examples check out the
 ###### NSNumber
 
 ```objc
++ (BOOL)randomBool;
 + (unsigned int)randomInteger;
 + (unsigned int)randomIntegerWithMax:(unsigned int)max;
 + (unsigned int)randomIntegerWithMin:(unsigned int)min

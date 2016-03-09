@@ -139,7 +139,7 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		271A30071C8EDC2A00C5C19A /* Foundation */ = {
+		271A30071C8EDC2A00C5C19A /* Foundation+DWRandom */ = {
 			isa = PBXGroup;
 			children = (
 				EC4A5593ADC3E993975CCB9EC20C09B0 /* NSArray+DWRandom.h */,
@@ -167,16 +167,23 @@
 				C9D6CE0FF71404DC863307A2BEBB2E8C /* NSMutableString+DWRandom.h */,
 				D1CCD491B016F7F2B9F78B65AD6DFB00 /* NSMutableString+DWRandom.m */,
 			);
-			name = Foundation;
+			name = "Foundation+DWRandom";
 			sourceTree = "<group>";
 		};
-		271A30081C8EDC3100C5C19A /* UIKit */ = {
+		271A30081C8EDC3100C5C19A /* UIKit+DWRandom */ = {
 			isa = PBXGroup;
 			children = (
 				C2AA2CF008139B1B2AF0629594AF2C4E /* UIColor+DWRandom.h */,
 				981CF4901903AD54216A1B0DF88DE7D4 /* UIColor+DWRandom.m */,
 			);
-			name = UIKit;
+			name = "UIKit+DWRandom";
+			sourceTree = "<group>";
+		};
+		279166371C90195100D8550B /* AppKit+DWRandom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "AppKit+DWRandom";
 			sourceTree = "<group>";
 		};
 		2870B4B0C72174ECD761063926421513 /* Support Files */ = {
@@ -250,8 +257,9 @@
 			isa = PBXGroup;
 			children = (
 				4D949051FB90F08B524A1680CBCA1161 /* DWRandom.h */,
-				271A30071C8EDC2A00C5C19A /* Foundation */,
-				271A30081C8EDC3100C5C19A /* UIKit */,
+				271A30071C8EDC2A00C5C19A /* Foundation+DWRandom */,
+				271A30081C8EDC3100C5C19A /* UIKit+DWRandom */,
+				279166371C90195100D8550B /* AppKit+DWRandom */,
 			);
 			path = DWRandom;
 			sourceTree = "<group>";

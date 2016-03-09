@@ -23,6 +23,11 @@
 
 @implementation NSNumber (DWRandom)
 
++ (BOOL)randomBool
+{
+    return arc4random_uniform(1);
+}
+
 + (unsigned int)randomInteger
 {
     return arc4random();

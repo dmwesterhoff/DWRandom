@@ -32,6 +32,17 @@
  */
 
 /**
+*  Generates a random boolean value, either YES (true) or NO (false)
+ *
+ *  @code
+ *  BOOL randomBool = [NSNumber randomBool];
+ *  @endcode
+ *
+*  @return A boolean value randomly selected
+*/
++ (BOOL)randomBool;
+
+/**
  *  Generates a random integer with a max at 4294967296 (0x100000000)
  *
  *  @code
