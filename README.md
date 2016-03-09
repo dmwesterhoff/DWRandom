@@ -22,10 +22,11 @@ randomization in your project.
 ---------------------
 
 * [Features](#features)
-* [Install](#install)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Examples](#examples)
 * [Documentation](#documentation)
+* [Implementation](#implementation)
 * [Contributing](#contributing)
 * [History](#history)
 * [Roadmap](#roadmap)
@@ -46,8 +47,8 @@ DWRandom in your project.
 * Completely extension based, no need for additional classes
 * Properly implemented, see [implementation](#implementation) for more info
 
-### Install
------------
+### Installation
+----------------
 
 ###### Cocoapods
 
@@ -216,6 +217,37 @@ Coming soon...
 You can check out the full reference documentation 
 [here](http://cocoadocs.org/docsets/DWRandom/)
 
+### Implementation
+------------------
+
+Underlying the library is the `arc4random()` function, more specifically the 
+`arc4random_uniform()` as it avoids a modulo bias as opposed to doing something
+like `arc4random() % n`. arc4random methods also have significantly better
+range than other "equivalents".
+
+The arc4random man pages say:
+
+```
+The arc4random() function uses the key stream generator employed by the
+arc4 cipher, which uses 8*8 8 bit S-Boxes.  The S-Boxes can be in about
+(2**1700) states.  The arc4random() function returns pseudo-random numbers
+in the range of 0 to (2**32)-1, and therefore has twice the range of
+rand(3) and random(3).
+```
+
+And some information on the modulo bias from the man pages:
+
+```
+arc4random_uniform() will return a uniformly distributed random number
+less than upper_bound.  arc4random_uniform() is recommended over construc-
+tions like ``arc4random() % upper_bound'' as it avoids "modulo bias" when
+the upper bound is not a power of two.
+```
+
+Another benefit of using the arc4random function famility is that none
+of the functions need be explicitly seeded as it is done automatically
+behind the scenes.
+
 ### Contributing
 ----------------
 
@@ -235,16 +267,19 @@ v0.1.0 - Intial project release *(3/6/16)*
 ### Roadmap
 -----------
 
-Coming soon...
-
-### Implementation
-------------------
-Coming soon...
+* +90% code testing coverage
+* AppKit Classes
+* Randomly add/pop from mutable arrays
+* 
 
 ### References
 --------------
 
-Coming soon...
+Good reads for anyone that wants to do their own digging around.
+
+* [arc4random man pages](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/arc4random.3.html)
+* [/dev/urandom](http://linux.die.net/man/4/urandom)
+* [/dev/urandom myths](http://www.2uo.de/myths-about-urandom/)
 
 ### Author
 ----------
