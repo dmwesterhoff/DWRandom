@@ -19,8 +19,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#ifndef DWRandom_h
-#define DWRandom_h
+#import <Availability.h>
+#import <TargetConditionals.h>
+
+#ifndef _DWRANDOM_
+#define _DWRANDOM_
 
 #import "NSArray+DWRandom.h"
 #import "NSCountedSet+DWRandom.h"
@@ -34,7 +37,15 @@
 #import "NSOrderedSet+DWRandom.h"
 #import "NSSet+DWRandom.h"
 #import "NSString+DWRandom.h"
+
+#if TARGET_OS_IOS || TARGET_OS_TV
+// UIKit available
 #import "UIColor+DWRandom.h"
+#endif
+
+#if TARGET_OS_MAC
+// AppKit available
+#endif
 
 /**-----------------------------------------------------------------------------
  * @name Class Method Proxies
