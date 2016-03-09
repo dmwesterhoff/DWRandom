@@ -13,6 +13,8 @@
 		1A417DCB8703EA029C2CF94A35F0F90F /* NSString+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2149AA187E293A5463B410EB80FC0D /* NSString+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2051323E29F49E3B6CB865EF62D2307A /* NSData+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0F31C724A0DD6A44BB9AA4FB83C006 /* NSData+DWRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		241EA8F4DB32F09B8CD122D1E4712CE5 /* UIColor+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 981CF4901903AD54216A1B0DF88DE7D4 /* UIColor+DWRandom.m */; };
+		2702F9991C902E6100894DAD /* UIFont+DWRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 2702F9971C902E6100894DAD /* UIFont+DWRandom.h */; };
+		2702F99A1C902E6100894DAD /* UIFont+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2702F9981C902E6100894DAD /* UIFont+DWRandom.m */; };
 		2CD4B1AA30CFCBF9A707D22B4F26531A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3766D7109A76F71EB34A188EA59F2EDB /* NSMutableArray+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA30FFF0C215CA0ECD713A0A5DA13DB /* NSMutableArray+DWRandom.m */; };
 		3FFD5A81F29B90819DCC821D413E775C /* NSDictionary+DWRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E05CAA57317048E95DE84A58877B1 /* NSDictionary+DWRandom.m */; };
@@ -57,6 +59,8 @@
 		0638C2491742C5403233B9DEA2AA2704 /* Pods-DWRandom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWRandom_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0FA30FFF0C215CA0ECD713A0A5DA13DB /* NSMutableArray+DWRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DWRandom.m"; sourceTree = "<group>"; };
 		20326E9D91EE61D09E83C8A85056A35A /* NSMutableArray+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DWRandom.h"; sourceTree = "<group>"; };
+		2702F9971C902E6100894DAD /* UIFont+DWRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DWRandom.h"; sourceTree = "<group>"; };
+		2702F9981C902E6100894DAD /* UIFont+DWRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DWRandom.m"; sourceTree = "<group>"; };
 		2EF5D2C3131D87AE02EEC63A887E93D5 /* Pods-DWRandom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWRandom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E0F31C724A0DD6A44BB9AA4FB83C006 /* NSData+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+DWRandom.h"; sourceTree = "<group>"; };
 		3E2149AA187E293A5463B410EB80FC0D /* NSString+DWRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+DWRandom.h"; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 			children = (
 				C2AA2CF008139B1B2AF0629594AF2C4E /* UIColor+DWRandom.h */,
 				981CF4901903AD54216A1B0DF88DE7D4 /* UIColor+DWRandom.m */,
+				2702F9971C902E6100894DAD /* UIFont+DWRandom.h */,
+				2702F9981C902E6100894DAD /* UIFont+DWRandom.m */,
 			);
 			name = "UIKit+DWRandom";
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 				FAE4F5C2089FF979365A049071CE4EDA /* DWRandom-umbrella.h in Headers */,
 				FF61D78AED8563657B52CC616697986B /* DWRandom.h in Headers */,
 				FC1CF61A9C826A0347B289ADD2A9B66F /* NSArray+DWRandom.h in Headers */,
+				2702F9991C902E6100894DAD /* UIFont+DWRandom.h in Headers */,
 				99A75088DBFE994C1AC1E9ADA7BB2273 /* NSCountedSet+DWRandom.h in Headers */,
 				2051323E29F49E3B6CB865EF62D2307A /* NSData+DWRandom.h in Headers */,
 				E584C889A4EB1D2EDF324BCC4F792F9E /* NSDictionary+DWRandom.h in Headers */,
@@ -390,6 +397,7 @@
 				CFA5DCFFC12438B47118931E7F8DB15C /* NSOrderedSet+DWRandom.m in Sources */,
 				80F1E0444796AFD328589E2FE5748621 /* NSSet+DWRandom.m in Sources */,
 				04EA54FEEB17FAC0457DA18880C66731 /* NSString+DWRandom.m in Sources */,
+				2702F99A1C902E6100894DAD /* UIFont+DWRandom.m in Sources */,
 				241EA8F4DB32F09B8CD122D1E4712CE5 /* UIColor+DWRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
