@@ -1,11 +1,12 @@
 ![Alt text](https://raw.githubusercontent.com/dmwesterhoff/DWRandom/master/logo.png?raw=true "DWRandom")
 -------------------------------------------------------------------------------
 
-[![CI Status](https://travis-ci.org/dmwesterhoff/DWRandom.svg?branch=master)](https://travis-ci.org/David Westerhoff/DWRandom)
 [![Version](https://img.shields.io/cocoapods/v/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
+[![CI Status](https://travis-ci.org/dmwesterhoff/DWRandom.svg?branch=master)](https://travis-ci.org/David Westerhoff/DWRandom)
+[![Doc Coverage](https://img.shields.io/cocoapods/metrics/doc-percent/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![License](https://img.shields.io/cocoapods/l/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![Platform](https://img.shields.io/cocoapods/p/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
-[![Language](https://img.shields.io/badge/language-objective--c-blue.svg)](http://cocoapods.org/pods/DWRandom)
+[![Language](https://img.shields.io/badge/language-objective--c-lightgrey.svg)](http://cocoapods.org/pods/DWRandom)
 
 Sometimes life calls for a bit of randomness.
 
