@@ -25,7 +25,7 @@ randomization in your project.
 * [Install](#install)
 * [Usage](#usage)
 * [Examples](#examples)
-* [Docs](#docs)
+* [Documentation](#documentation)
 * [Contributing](#contributing)
 * [History](#history)
 * [Roadmap](#roadmap)
@@ -210,14 +210,16 @@ for copy-paste snippets showing many examples check out the
 
 Coming soon...
 
-### Docs
---------
+### Documentation
+-----------------
 
 You can check out the full reference documentation 
 [here](http://cocoadocs.org/docsets/DWRandom/)
 
 ### Contributing
 ----------------
+
+Got a great idea and want to contribute? Here's how you can help...
 
 1. Fork it
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -233,6 +235,10 @@ v0.1.0 - Intial project release *(3/6/16)*
 ### Roadmap
 -----------
 
+Coming soon...
+
+### Implementation
+------------------
 Coming soon...
 
 ### References
