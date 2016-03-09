@@ -21,6 +21,7 @@ randomization in your project.
 ### Table of Contents
 ---------------------
 
+* [Features](#features)
 * [Install](#install)
 * [Usage](#usage)
 * [Examples](#examples)
@@ -30,6 +31,20 @@ randomization in your project.
 * [Roadmap](#roadmap)
 * [Author](#author)
 * [License](#license)
+
+### Features
+------------
+
+So why use this library and not write your own randomization utility methods?
+While you're welcome to do so, theres several reasons you might want to use 
+DWRandom in your project.
+
+* Dead simple developer inteface, and a lot of nice one-liners
+* 100% documentation coverage
+* Comprehensive testing on all methods
+* Cocoapods integration, get started fast
+* Completely extension based, no need for additional classes
+* Properly implemented, see [implementation](#implementation) for more info
 
 ### Install
 -----------
