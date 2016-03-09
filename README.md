@@ -217,10 +217,9 @@ Coming soon...
 -----------------
 
 You can check out the full reference documentation 
-[here](http://cocoadocs.org/docsets/DWRandom/)
-
-got [Dash](https://kapeli.com/dash)? Add the DWRandom docset by 
-clicking [here](dash-feed://http%3A%2F%2Fcocoadocs.org%2Fdocsets%2FDWRandom%2FDWRandom.xml)
+[here](http://cocoadocs.org/docsets/DWRandom/), or if you have Dash, click 
+[here](dash-feed://http://cocoadocs.org/docsets/DWRandom/DWRandom.xml) to add
+the DWRandom docset.
 
 ### Implementation
 ------------------
