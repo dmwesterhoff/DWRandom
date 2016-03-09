@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
     DWRandom is a lightweight framework written in Objective-C that makes
     working with randomization in many of Foundations core data structures a
-    breeze(And some UIKit ones too!). The interface is extension based and aims
+    breeze(And some UI classes too!). The interface is extension based and aims
     to be dead simple to easily put randomization capabilities in your project
     in a very clean way. If you want a clean one liner solution for
     randomization look no further.
