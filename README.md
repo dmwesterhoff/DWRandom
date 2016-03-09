@@ -5,6 +5,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![License](https://img.shields.io/cocoapods/l/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
 [![Platform](https://img.shields.io/cocoapods/p/DWRandom.svg?style=flat)](http://cocoapods.org/pods/DWRandom)
+[![Language](https://img.shields.io/badge/language-objective--c-blue.svg)](http://cocoapods.org/pods/DWRandom)
 
 Sometimes life calls for a bit of randomness.
 
