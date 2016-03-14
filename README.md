@@ -209,6 +209,12 @@ for copy-paste snippets showing many examples check out the
 + (UIColor*)randomColorWithRandomAlpha;
 ```
 
+###### UIFont
+
+```objc
++ (UIFont*)randomFontWithSize:(CGFloat)size;
+```
+
 ### Examples
 ------------
 

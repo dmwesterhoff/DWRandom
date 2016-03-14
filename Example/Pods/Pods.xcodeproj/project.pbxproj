@@ -185,13 +185,6 @@
 			name = "UIKit+DWRandom";
 			sourceTree = "<group>";
 		};
-		279166371C90195100D8550B /* AppKit+DWRandom */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "AppKit+DWRandom";
-			sourceTree = "<group>";
-		};
 		2870B4B0C72174ECD761063926421513 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,7 +258,6 @@
 				4D949051FB90F08B524A1680CBCA1161 /* DWRandom.h */,
 				271A30071C8EDC2A00C5C19A /* Foundation+DWRandom */,
 				271A30081C8EDC3100C5C19A /* UIKit+DWRandom */,
-				279166371C90195100D8550B /* AppKit+DWRandom */,
 			);
 			path = DWRandom;
 			sourceTree = "<group>";
